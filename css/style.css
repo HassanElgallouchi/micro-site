@@ -49,7 +49,6 @@ input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
@@ -64,7 +63,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -78,8 +77,7 @@ button:hover {
 /* Extra style for the cancel button (red) */
 
 .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
+    width: 50%;
     background-color: #f44336;
 }
 
@@ -87,15 +85,16 @@ button:hover {
 /* Center the avatar image inside this container */
 
 .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
+    align-items: center;
+    margin: 0px auto 0px auto;
+    width: 50%;
 }
 
 
 /* Avatar image */
 
 img.avatar {
-    width: 40%;
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -103,7 +102,9 @@ img.avatar {
 /* Add padding to containers */
 
 .container {
-    padding: 16px;
+    padding: 25%;
+    position: relative;
+    bottom: 300px;
 }
 
 
@@ -111,18 +112,4 @@ img.avatar {
 
 span.psw {
     float: right;
-    padding-top: 16px;
-}
-
-
-/* Change styles for span and cancel button on extra small screens */
-
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
 }
