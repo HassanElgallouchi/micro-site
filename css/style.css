@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #ffffff;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.header .header-menu a:hover {
+    color: #bdc3c7;
+}
